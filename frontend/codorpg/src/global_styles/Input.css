@@ -1,0 +1,18 @@
+.input-style {
+    border-radius: 30px;
+    width: 40%;
+    text-align: center;
+    background-color: transparent;
+    border: #9127C4 1px solid;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    transition: ease .5s;
+    color: #f1f1f1;
+}
+
+.input-style:focus {
+    width: 45%;
+    border: transparent;
+    box-shadow: #2E6AB9 0 0 35px 0;
+
+}

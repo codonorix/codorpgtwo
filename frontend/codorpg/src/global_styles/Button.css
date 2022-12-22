@@ -1,0 +1,14 @@
+.button-style-one {
+    cursor: pointer;
+    border-radius: 30px 15px 30px 15px;
+    border: #2E6AB9 1px solid;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    transition: ease .5s;
+}
+
+.button-style-one:hover {
+    box-shadow: #2E6AB9 0 0 35px 0;
+}
