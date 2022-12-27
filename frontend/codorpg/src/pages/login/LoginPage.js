@@ -5,6 +5,8 @@ import './LoginPage.css'
 import '../../global_styles/Input.css'
 import '../../global_styles/Button.css'
 import axios from "axios";
+
+
 export const LoginPage = () => {
     const [userData, setUserData] = useState({
         'username': '',
@@ -34,8 +36,11 @@ export const LoginPage = () => {
                 setLoginIssue(true)
                 return;
             }
-
             setLoginIssue(false)
+            sessionStorage.setItem('loggedIn', '1')
+            sessionStorage.setItem('userData', JSON.stringify(data.data.user))
+            sessionStorage.setItem('dbData', JSON.stringify(data.data.dbData))
+            window.location.reload()
         })
     }
 

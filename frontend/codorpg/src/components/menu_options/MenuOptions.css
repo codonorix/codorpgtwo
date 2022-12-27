@@ -1,0 +1,19 @@
+.element {
+    text-align: center;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 50%;
+    margin: 8px auto;
+    transition: .5s;
+
+}
+
+.element:hover {
+    box-shadow: #9127C4 0 0 35px 0;
+    transform: scale(1.05);
+}

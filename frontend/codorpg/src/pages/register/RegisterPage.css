@@ -1,0 +1,22 @@
+#classes {
+    display: inline-grid;
+    grid-auto-flow: column;
+}
+
+.class-type {
+    margin: 12px;
+    border: #9127C4 1px solid;
+    border-radius: 30px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.selected {
+    box-shadow: #9127C4 0 0 35px 0;
+}
+
+.err-block {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
